@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                   <?= $name; ?>
+                    <?= htmlspecialchars($name, ENT_QUOTES); ?>
                 </div>
 
             </div>
